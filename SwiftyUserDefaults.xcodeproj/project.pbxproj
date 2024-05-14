@@ -13,6 +13,7 @@
 		18B46EAC09475D8404C7DF3A /* DefaultsSerializableSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFFE22277FA6C163E34F4D2 /* DefaultsSerializableSpec.swift */; };
 		1C21A8A584B33AF419FCE1A5 /* OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85096B65E07A3BC7F856F0D1 /* OptionalType.swift */; };
 		2410BBF7DE7518FD5DD73BB4 /* Defaults+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A574FF49CBCEBCCEAE9BD42E /* Defaults+String.swift */; };
+		2882E91F2BF33C02004E5708 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 2882E91E2BF33C02004E5708 /* PrivacyInfo.xcprivacy */; };
 		30366F181855444010BCC954 /* Defaults+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15D6CCB785C552A0B39B16A /* Defaults+Color.swift */; };
 		311F24C3509BE924078AD67E /* DefaultsObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9701991125BC1345631E831E /* DefaultsObserver.swift */; };
 		499B0191487C22E03028ED3C /* Defaults+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FE3F6B58F219CAAE0AD64 /* Defaults+Int.swift */; };
@@ -55,6 +56,7 @@
 		161E961FF7D84853F6369DEE /* Defaults+FrogSerializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Defaults+FrogSerializable.swift"; path = "Tests/SwiftyUserDefaultsTests/External types/Defaults+FrogSerializable.swift"; sourceTree = "<group>"; };
 		1A9683391DA938C5FBDD29A7 /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyUserDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20EBA39F1E25782FDC1CFC36 /* DefaultsBridges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultsBridges.swift; path = Sources/DefaultsBridges.swift; sourceTree = "<group>"; };
+		2882E91E2BF33C02004E5708 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		2EFFE22277FA6C163E34F4D2 /* DefaultsSerializableSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultsSerializableSpec.swift; path = Tests/SwiftyUserDefaultsTests/TestHelpers/DefaultsSerializableSpec.swift; sourceTree = "<group>"; };
 		2F97C9DDE34857798EA6519B /* Defaults+Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Defaults+Date.swift"; path = "Tests/SwiftyUserDefaultsTests/Built-ins/Defaults+Date.swift"; sourceTree = "<group>"; };
 		3D8980553F1615D4ACB4AA43 /* Defaults+Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Defaults+Dictionary.swift"; path = "Tests/SwiftyUserDefaultsTests/Built-ins/Defaults+Dictionary.swift"; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				85096B65E07A3BC7F856F0D1 /* OptionalType.swift */,
 				858E15CF231FEC2F00DC1418 /* PropertyWrappers.swift */,
 				B134969522555B348C06FD6C /* SwiftyUserDefaults.h */,
+				2882E91E2BF33C02004E5708 /* PrivacyInfo.xcprivacy */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2882E91F2BF33C02004E5708 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
